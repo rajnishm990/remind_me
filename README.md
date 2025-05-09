@@ -73,7 +73,7 @@ API documentation is available at:
 ## Example Request
 
 ```json
-POST /api/v1/reminders/
+POST /api/reminders/
 {
     "title": "Meeting with Team",
     "message": "Don't forget the team meeting at 2PM",
