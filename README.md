@@ -64,11 +64,11 @@ API documentation is available at:
 
 ### Reminders
 
-- `GET /api/v1/reminders/` - List all reminders
-- `POST /api/v1/reminders/` - Create a new reminder
-- `GET /api/v1/reminders/{id}/` - Retrieve a specific reminder
-- `DELETE /api/v1/reminders/{id}/` - Delete a reminder
-- `POST /api/v1/reminders/{id}/cancel/` - Cancel a pending reminder
+- `GET /api/reminders/` - List all reminders
+- `POST /api/reminders/` - Create a new reminder
+- `GET /api/reminders/{id}/` - Retrieve a specific reminder
+- `DELETE /api/reminders/{id}/` - Delete a reminder
+- `POST /api/reminders/{id}/cancel/` - Cancel a pending reminder
 
 ## Example Request
 
