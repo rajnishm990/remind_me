@@ -42,7 +42,7 @@ class ReminderViewSet(mixins.CreateModelMixin,
             status=status.HTTP_400_BAD_REQUEST
         )
     
-    action(detail=True, methods=['post'])
+    @action(detail=True, methods=['put'])
     def cancel(self, request, pk=None):
         """Cancel a pending reminder."""
         reminder = get_object_or_404(Reminder, pk=pk)
