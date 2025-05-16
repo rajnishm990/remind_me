@@ -15,6 +15,7 @@ class Reminder(models.Model):
         ('pending', 'Pending'),
         ('sent', 'Sent'),
         ('failed', 'Failed'),
+        ('cancelled','cancelled')
     )
     
     title = models.CharField(max_length=200, blank=True)
